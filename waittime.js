@@ -24,6 +24,7 @@ fs.writeFile('out.txt', '', 'utf8', function(err) {
   if(err) return console.log(err);
 });
 
+domeInputs['timeToWait'] = domeInputs['timeToWait'] > 1 ? domeInputs['timeToWait'] : 1
 var delayTime = (domeInputs['timeToWait']/3)*1000
 var i = 1
 

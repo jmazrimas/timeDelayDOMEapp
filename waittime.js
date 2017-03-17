@@ -29,7 +29,7 @@ var delayTime = (domeInputs['timeToWait']/3)*1000
 var i = 1
 
 function writeOutput(){
-  var outputData = 'Interval'+i+' = '+parseInt(delayTime*i)+'ms\n'
+  var outputData = 'interval'+i+' = '+parseInt(delayTime*i)+'ms\n'
 
   fs.appendFile('out.txt', outputData, function (err) {
     if(err) return console.log(err);

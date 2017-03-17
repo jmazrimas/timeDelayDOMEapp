@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="c1d37451-ded4-1004-8990-3fa6384cb155" name="Default Interface">
+    <interfaceinfo>
+        <version>0.0.1</version>
+        <defaultinterface/>
+    </interfaceinfo>
+    <mappingsandintermediates>
+        <mappings>
+            <interfacemappings>
+                <mappedParameter name="Interval1" idRef="c1d3745f-ded4-1004-8990-3fa6384cb155">
+                    <parameter name="Interval1" idRef="c1d3745d-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155"/>
+                </mappedParameter>
+                <mappedParameter name="Interval3" idRef="c1d37465-ded4-1004-8990-3fa6384cb155">
+                    <parameter name="Interval3" idRef="c1d37463-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155"/>
+                </mappedParameter>
+                <mappedParameter name="Interval2" idRef="c1d37462-ded4-1004-8990-3fa6384cb155">
+                    <parameter name="Interval2" idRef="c1d37460-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155"/>
+                </mappedParameter>
+                <mappedParameter name="timeToWait" idRef="c1d3745c-ded4-1004-8990-3fa6384cb155">
+                    <parameter name="timeToWait" idRef="c1d3745a-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155"/>
+                </mappedParameter>
+                <mappedParameter name="Interval3" idRef="c1d37464-ded4-1004-8990-3fa6384cb155">
+                    <parameter name="Interval3" idRef="c1d37463-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155"/>
+                </mappedParameter>
+                <mappedParameter name="timeToWait" idRef="c1d3745b-ded4-1004-8990-3fa6384cb155">
+                    <parameter name="timeToWait" idRef="c1d3745a-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155"/>
+                </mappedParameter>
+                <mappedParameter name="Interval1" idRef="c1d3745e-ded4-1004-8990-3fa6384cb155">
+                    <parameter name="Interval1" idRef="c1d3745d-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155"/>
+                </mappedParameter>
+                <mappedParameter name="Interval2" idRef="c1d37461-ded4-1004-8990-3fa6384cb155">
+                    <parameter name="Interval2" idRef="c1d37460-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155"/>
+                </mappedParameter>
+            </interfacemappings>
+        </mappings>
+        <intermediateobjects/>
+    </mappingsandintermediates>
+    <lookupdata>
+        <objectmap>
+            <parameter name="Interval3" idRef="c1d37463-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155" description="key"/>
+            <parameter name="Interval3" idRef="c1d37464-ded4-1004-8990-3fa6384cb155" description="value"/>
+            <parameter name="Interval2" idRef="c1d37460-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155" description="key"/>
+            <parameter name="Interval2" idRef="c1d37461-ded4-1004-8990-3fa6384cb155" description="value"/>
+            <parameter name="Interval1" idRef="c1d3745d-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155" description="key"/>
+            <parameter name="Interval1" idRef="c1d3745e-ded4-1004-8990-3fa6384cb155" description="value"/>
+            <parameter name="timeToWait" idRef="c1d3745a-ded4-1004-8990-3fa6384cb155" idModelRef="c1d37448-ded4-1004-8990-3fa6384cb155" description="key"/>
+            <parameter name="timeToWait" idRef="c1d3745b-ded4-1004-8990-3fa6384cb155" description="value"/>
+        </objectmap>
+        <viewobjectmap>
+            <parameter name="Interval3" idRef="c1d37464-ded4-1004-8990-3fa6384cb155" description="key"/>
+            <parameter name="Interval3" idRef="c1d37465-ded4-1004-8990-3fa6384cb155" description="value"/>
+            <parameter name="timeToWait" idRef="c1d3745b-ded4-1004-8990-3fa6384cb155" description="key"/>
+            <parameter name="timeToWait" idRef="c1d3745c-ded4-1004-8990-3fa6384cb155" description="value"/>
+            <parameter name="Interval1" idRef="c1d3745e-ded4-1004-8990-3fa6384cb155" description="key"/>
+            <parameter name="Interval1" idRef="c1d3745f-ded4-1004-8990-3fa6384cb155" description="value"/>
+            <parameter name="Interval2" idRef="c1d37461-ded4-1004-8990-3fa6384cb155" description="key"/>
+            <parameter name="Interval2" idRef="c1d37462-ded4-1004-8990-3fa6384cb155" description="value"/>
+        </viewobjectmap>
+        <relationobjectmap/>
+    </lookupdata>
+</modelinterface>
